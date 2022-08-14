@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
-import {changeFilter } from '../Redux/ContactsSlice'
+import {changeFilter } from '../../Redux/ContactsSlice'
 import { useSelector, useDispatch } from 'react-redux';
 export const Filter = () => {
-  const filter = useSelector(store => store.filter);
+
+  const filter = useSelector(store => store.contacts.filter);
   const dispatch = useDispatch();
     return (<div>
             <h3>Find contacts by name</h3>

@@ -2,7 +2,7 @@ import { InputItem } from "./inputForm.styled";
 import { Formik, Form } from 'formik';
 import PropTypes from 'prop-types';
 import { useSelector, useDispatch } from 'react-redux';
-import { addContact } from '../Redux/ContactsSlice';
+import { addContact } from '../../Redux/ContactsSlice';
 import { nanoid } from 'nanoid';
 
 export function InputForm() {

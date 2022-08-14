@@ -1,5 +1,5 @@
 import { ListItem, TelNum, DelBtn } from "./ContactList.styled";
-import {removeContact } from '../Redux/ContactsSlice'
+import {removeContact } from '../../Redux/ContactsSlice'
 import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
 
